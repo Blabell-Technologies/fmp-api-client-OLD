@@ -1,0 +1,22 @@
+{
+  "name": "fmp-api-client",
+  "version": "0.2.0",
+  "description": "Permite integrar una aplicación a los servicios de API de FoundMyPet mediante un API-Client",
+  "main": "./lib/fmp.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node ./tests/index.js"
+  },
+
+  "keywords": ["blabell-technologies", "api", "client", "found-my-pet", "connection", "database", "command"],
+  "author": "Blabell Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "phone": "^2.4.20"
+  }
+}
