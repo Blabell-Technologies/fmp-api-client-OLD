@@ -1,6 +1,6 @@
 {
   "name": "fmp-client",
-  "version": "1.0.3a",
+  "version": "1.0.5",
   "description": "Permite integrar una aplicación a los servicios de API de FoundMyPet mediante un API-Client",
   "main": "./lib/fmp.js",
   "directories": {
