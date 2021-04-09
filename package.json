@@ -1,24 +1,38 @@
 {
   "name": "fmp-client",
-  "version": "1.1.1",
+  "version": "alpha<2.0.0>",
   "description": "Permite integrar una aplicación a los servicios de API de FoundMyPet mediante un API-Client",
   "main": "./lib/fmp.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "start": "node ./tests/index.js"
   },
-  "repository": { "type": "git", "url": "https://github.com/santi28/FoundMyPet-ApiClient" },
-  "keywords": ["blabell-technologies", "api", "client", "found-my-pet", "connection", "database", "command"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santi28/FoundMyPet-ApiClient"
+  },
+  "keywords": [
+    "blabell-technologies",
+    "api",
+    "client",
+    "found-my-pet",
+    "connection",
+    "database",
+    "command"
+  ],
   "author": "Blabell Technologies",
   "license": "ISC",
-  "dependencies": {
-    "email-validator": "^2.0.4",
-    "form-data": "^3.0.0",
-    "node-fetch": "^2.6.1",
-    "phone": "^2.4.20"
+  "bugs": {
+    "url": "https://github.com/santi28/FoundMyPet-ApiClient/issues"
   },
-  "bugs": { "url": "https://github.com/santi28/FoundMyPet-ApiClient/issues" },
-  "homepage": "https://github.com/santi28/FoundMyPet-ApiClient#readme"
+  "homepage": "https://github.com/santi28/FoundMyPet-ApiClient#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
 }

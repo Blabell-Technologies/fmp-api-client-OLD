@@ -1,2 +1,8 @@
-# FoundMyPet Api Client
-Pet and animal managing methods from api.foundmypet.org. If you want to get your own API Key, please contact us at info@foundmypet.org.
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  * { font-family: 'Poppins', sans-serif; }
+</style>
+
+# FoundMyPet API Client
+Libreria oficial para conexión de NodeJS con API de FoundMyPet
